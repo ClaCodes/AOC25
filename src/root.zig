@@ -25,6 +25,7 @@ const day23 = @import("day23.zig");
 const day24 = @import("day24.zig");
 const day25 = @import("day25.zig");
 const mask_iterator = @import("mask_iterator.zig");
+const bit_field = @import("bit_field.zig");
 
 pub fn solve01(reader: *std.Io.Reader, writer: *std.Io.Writer) !void {
     return day01.solve(reader, writer);
